@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.result {
+  display: inline-block;
+  background-color: black;
+  height: 45px;
+  width: 418px;
+  max-width: 418px;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  font-family: Numeros;
+}
+
+.botonumero{
+  font-family: Numeros;
+  font-size: 30px;
+}
+
+@font-face {
+
+font-family: Numeros;
+src: url(recursos/digital.ttf);
+
+}
